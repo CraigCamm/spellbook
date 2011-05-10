@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # Determine the possible spell directories
 directory_spellbook=`pwd`"/spellbook"

@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # Create meaningful variable names for the input arguments
 original_extension=$1

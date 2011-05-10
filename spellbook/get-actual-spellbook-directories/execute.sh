@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # Grab the spellbook directories that actually exist
 possible_spellbook_directories=`spellbook get-possible-spellbook-directories`

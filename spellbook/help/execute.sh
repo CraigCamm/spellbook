@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # If no arguments were passed in
 if [ "$#" == "0" ]; then

@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # Define the autocomplete function to return the list of spells
 __spellbook_command ()
@@ -13,5 +13,5 @@ __spellbook_command ()
     return 0
 }
 
-# Set up this bash autocomplete function for the spellbook command
+# Set up this bin/bash autocomplete function for the spellbook command
 complete -F __spellbook_command spellbook
