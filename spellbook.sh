@@ -5,7 +5,7 @@ if [ "$#" == "0" ]; then
     # Determine the name of this script file
     script_filename=`basename $0`
     # Display the usage instructions for this script, then stop
-    echo "Spellbook usage: $script_filename script-name [arguments...]"
+    echo "Usage: $script_filename script-name [arguments...]"
     exit 1
 fi
 

@@ -1,0 +1,17 @@
+#!bash
+
+# Define the autocomplete function to return the list of spells
+__spellbook_command ()
+{
+    # Define the local variables
+    local current options
+    # Grab the current set of options
+    current="${COMP_WORDS[COMP_CWORD]}"
+    options=`spellbook list`
+    # Return an array of matching options
+    COMPREPLY=( $(compgen -W "${options}" -- ${current}) )
+    return 0
+}
+
+# Set up this bash autocomplete function for the spellbook command
+complete -F __spellbook_command spellbook
